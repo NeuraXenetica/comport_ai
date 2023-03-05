@@ -10,7 +10,7 @@ ___
 The process used by Comport_AI for generating optimized models for the likely range of workers’ future job performance involves the following steps.
 
 ### Launching the web app
-There are various ways of running the web app, depending on how Python has been configured on one’s system. For example, presuming that one has successfully installed the Comport_AI package (e.g., through `python -m pip install comport_ai`) and its dependencies, from within Windows PowerShell, one can open the Comport_AI folder that contains the module files listed above and type: `uvicorn cai_app:app` to launch the web app, which can then be accessed through a web browser at `http://127.0.0.1:8000/`.
+There are various ways of running the web app, depending on how Python has been configured on one’s system. For example, presuming that one has successfully installed the Comport_AI package (e.g., through `python -m pip install comport-ai`) and its dependencies, from within Windows PowerShell, one can open the Comport_AI folder that contains the module files listed above and type: `uvicorn cai_app:app` to launch the web app, which can then be accessed through a web browser at `http://127.0.0.1:8000/`.
 ### Configuring the performance-range modelling process
 It’s possible for a user to configure a number of the simulation’s parameters from within the web app’s interface.
 #### Selecting the data source
