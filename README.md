@@ -41,7 +41,7 @@ While the metrics for Ceiling and Floor Models previously described were useful 
 - **Inverted Range Portion (IRP).** This is the share of cases for which a worker’s predicted ceiling value is less than his or her predicted floor value. An ideally functioning Joint Range Model would have an IRP of 0.0.
 - **Portion of Actual Targets Out of Range (PATOR).** This is the share of cases in which an actual target value was either greater than the predicted ceiling or less than the predicted floor. An ideally functioning Joint Range Model would have a PATOR of 0.0.
 - **Mean Summed Absolute Distances to Range Edges (MSADRE).** This is sum of the absolute distance of an actual target value from its predicted ceiling value and its absolute distance from its predicted floor value, averaged across all cases.
-- **Overall Range Performance (ORP).** For a given Joint Range Model, this complex metric equals `(1 – PATOR)² ÷ √(MSADRE)`. It more significantly penalizes models that have a greater share of actual target values falling outside their predicted range, while only relatively weakly penalizing models that yield larger predicted ranges. Unlike in the cases of CCE and CFE, our goal in the modelling of performance ranges is the maximize the value of ORP.
+- **Overall Range Performance (ORP).** For a given Joint Range Model, this complex metric equals `(1 – PATOR)² ÷ √(MSADRE)`. It more significantly penalizes models that have a greater share of actual target values falling outside their predicted range, while only relatively weakly penalizing models that yield larger predicted ranges. Unlike in the cases of OCE and OFE, our goal in the modelling of performance ranges is to maximize the value of ORP.
 
 ___
 ## Evaluating the results
